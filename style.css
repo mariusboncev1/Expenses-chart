@@ -1,0 +1,93 @@
+body {
+    background-color: #F8E9DD;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    gap: 15px;
+    width: 400px;
+    margin-top: 50px;
+}
+
+/* ! Balance Container */
+
+#balance-container {
+    position: relative;
+    display: flex;
+    height: 100px;
+    width: 400px;
+    background-color: #EC775F;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+.balance-text {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+}
+
+.balance-label {
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.account-balance {
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.balance-img {
+    height: 45px;
+    padding: 25px;
+}
+
+
+/* ! Graph Container */
+
+#graph-container {
+    position: relative;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    
+    height: 450px;
+    width: 400px;
+    background-color: white;
+    
+    border-radius: 15px;
+}
+
+.spending-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.graph {
+    border: 1px solid #93867B;
+    height: 200px;
+    width: 360px;
+}
+
+.hr {
+    width: 350px;
+}
+
+.total-label {
+    font-family: "DM Sans", sans-serif;
+    color: #93867B;
+}
+
+.month-balance {
+    
+}
