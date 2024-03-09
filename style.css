@@ -71,23 +71,78 @@ body {
     font-family: "DM Sans", sans-serif;
     font-weight: 700;
     font-size: 27px;
+    width: 80%;
+    margin-left: 20px;
 }
 
 .graph {
+    align-self: center;
     border: 1px solid #93867B;
-    height: 200px;
+    height: 230px;
     width: 360px;
 }
 
 .hr {
+    background-color: #F8E9DD;
+    position: relative;
     width: 350px;
+    align-self: center;
+    margin: 20px 0px 20px 0px;
+    height: 2px;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* ! Total container */
+
+#total-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 23px;
+}
+
+
+#total-month {
+    display: flex;
+    flex-direction: column;
 }
 
 .total-label {
     font-family: "DM Sans", sans-serif;
     color: #93867B;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 
 .month-balance {
-    
+    font-size: 10px;
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+#growth-components {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.growth-percent {
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    font-family: "DM Sans", sans-serif;
+}
+
+.growth-label {
+    font-family: "DM Sans", sans-serif;
+    color: #93867B;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1px;
 }
