@@ -8,10 +8,10 @@ body {
     margin: auto;
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: fit-content;
     gap: 15px;
     width: 400px;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 /* ! Balance Container */
@@ -57,20 +57,18 @@ body {
 #graph-container {
     position: relative;
     display: flex;
-    position: relative;
     flex-direction: column;
-    
-    height: 450px;
+    height: fit-content;
     width: 400px;
     background-color: white;
-    
     border-radius: 15px;
+    padding-bottom: 25px;
 }
 
 .spending-title {
     font-family: "DM Sans", sans-serif;
     font-weight: 700;
-    font-size: 27px;
+    font-size: 28px;
     width: 80%;
     margin-left: 20px;
 }
@@ -81,17 +79,13 @@ body {
     align-self: center;
 }
 
-#myChart {
-    
-}
-
 .hr {
     background-color: #F8E9DD;
     position: relative;
     width: 350px;
     align-self: center;
-    margin: 20px 0px 20px 0px;
-    height: 2px;
+    margin: 25px 0px 25px 0px;
+    height: 1px;
     border: 0;
     border-radius: 5px;
 }
@@ -102,9 +96,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 23px;
+    padding: 0px 23px 0px 23px;
 }
-
 
 #total-month {
     display: flex;
@@ -119,11 +112,11 @@ body {
     letter-spacing: 1px;
 }
 
-.month-balance {
+.week-expenses {
     font-size: 10px;
     color: black;
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 800;
     font-family: "DM Sans", sans-serif;
 }
 
