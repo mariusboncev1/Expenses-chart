@@ -14,6 +14,7 @@
 <body>
     
     <div id="container">
+
         <div id="balance-container">
             <div class="balance-text">
                 <label class="balance-label">My balance</label>
@@ -24,8 +25,10 @@
 
         <div id="graph-container">
             <h2 class="spending-title">Spending - Last 7 days</h2>
-
-            <div class="graph"></div>
+            <!--! CHART -->
+            <div class="canvas">
+                <canvas id="myChart"></canvas>
+            </div>
 
             <hr class="hr">
 
@@ -43,5 +46,8 @@
         </div>
     </div>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/chart.js"></script>
 </body>
 </html>

@@ -75,11 +75,14 @@ body {
     margin-left: 20px;
 }
 
-.graph {
+.canvas {
+    display: flex;
+    width: 380px;
     align-self: center;
-    border: 1px solid #93867B;
-    height: 230px;
-    width: 360px;
+}
+
+#myChart {
+    
 }
 
 .hr {
