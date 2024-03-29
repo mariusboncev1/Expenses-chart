@@ -28,8 +28,8 @@ const ctx = document.querySelector('#myChart');
       },
 
       scales: {
-        
         y: {
+          display: false,
           grid: {
             display:false
           },
@@ -47,6 +47,5 @@ const ctx = document.querySelector('#myChart');
           },
         }
       }
-      
     }
   });
