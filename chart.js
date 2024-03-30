@@ -6,11 +6,11 @@ const ctx = document.querySelector('#myChart');
     data: {
       labels: ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', "sun"],
       datasets: [{
-        labels: '$',
-        data: [17.9, 34, 52.6, 31.07, 18, 36, 23],
+        label: '$',
+        data: [17.9, 34, 52.6, 31.07, 18, 36, 23] ,
         borderWidth: 0,
         backgroundColor: '#E7755D',
-      }]
+      }],
     },
 
     options: {
@@ -24,7 +24,7 @@ const ctx = document.querySelector('#myChart');
       plugins: {
         legend: {
           display: false
-        }
+        },
       },
 
       scales: {
